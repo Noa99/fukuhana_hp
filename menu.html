@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="menu.css">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>お好み焼　福花</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <a href="index.html">
+                <img class="entrancePic" src="pic/ent.jpg" width=50% alt="お好み焼 福花｜下町のお好み焼き屋">
+            </a>
+        </div>
+        <div class="content">
+            <div class="navi">
+                <ul class="mbtn">
+                    <li class="mbtn01">
+                        <a href="index.html">
+                            <p class="bja">店舗紹介</p>
+                            <p class="ben">About</p>
+                        </a>
+                    </li>
+                    <div class="verticalLine"></div>
+                    <li class="mbtn02">
+                        <a href="menu.html">
+                            <p class="bja">御品書き</p>
+                            <p class="ben">Menu</p>
+                        </a>
+                    </li>
+                    <div class="verticalLine"></div>
+                    <li class="mbtn03">
+                        <a href="access.html">
+                            <p class="bja">アクセス・マップ</p>
+                            <p class="ben">Access|Map</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- ここまでヘッダー（前ページ統一） -->
+
+            <div class="menuSection">
+                <ul class="snavi">
+                    <li class="all" onclick="clickMenu(0)">
+                        <h3>すべて</h3>
+                    </li>
+                    <div class="snavivVerticalLine"></div>
+                    <li class="okoMenu" onclick="clickMenu(1)">
+                        <h3>お好み焼<br>もんじゃ</h3>
+                    </li>
+                    <div class="snavivVerticalLine"></div>
+                    <li class="ironMenu" onclick="clickMenu(2)">
+                        <h3>鉄板焼き</h3>
+                    </li>
+                    <div class="snavivVerticalLine"></div>
+                    <li class="noodle_tako_gohanMenu" onclick="clickMenu(3)">
+                        <h3>麺類/たこやき<br>ごはんもの</h3>
+                    </li>
+                    <div class="snavivVerticalLine"></div>
+                    <li class="drinkMenu" onclick="clickMenu(4)">
+                        <h3>お飲み物</h3>
+                    </li>
+                </ul>
+
+                <!-- ここからメニューテーブル -->
+                <div class="okoMenuContens">
+                    <div class="horizonLineLeft"></div>
+
+                    <!-- お好み焼・もんじゃ -->
+                    <div id="menu1">
+                        <div class="smallTittle">
+                            <img src="pic/福花ロゴ.png" width="40px">
+                            <h2>お好み焼</h2>
+                        </div>
+                        <div id="output_oko_csv"></div>
+
+                        <div class="smallTittle">
+                            <img src="pic/福花ロゴ.png" width="40px">
+                            <h2>もんじゃ</h2>
+                        </div>
+                        <div id="output_monjya_csv"></div>
+                    </div>
+
+                    <!-- ここから鉄板焼き -->
+                    <div id="menu2">
+                        <div class="smallTittle">
+                            <img src="pic/福花ロゴ.png" width="40px">
+                            <h2>鉄板焼き</h2>
+                        </div>
+                        <div id="output_teppan_csv"></div>
+                    </div>
+
+                    <!-- ここから麺類・たこやき・ごはん -->
+                    <div id="menu3">
+                        <!-- 麺類 -->
+                        <div class="smallTittle">
+                            <img src="pic/福花ロゴ.png" width="40px">
+                            <h2>麺類</h2>
+                        </div>
+                        <div id="output_men_csv"></div>
+
+                        <!-- たこやき -->
+                        <div class="smallTittle">
+                            <img src="pic/福花ロゴ.png" width="40px">
+                            <h2>たこやき</h2>
+                        </div>
+                        <div id='output_takoyaki_csv'></div>
+
+                        <!-- ごはんもの -->
+                        <div class="smallTittle">
+                            <img src="pic/福花ロゴ.png" width="40px">
+                            <h2>ごはんもの</h2>
+                        </div>
+                        <div id="output_gohan_csv"></div>
+                    </div>
+
+                    <!-- 飲み物 -->
+                    <div id="menu4">
+                        <div class="smallTittle">
+                            <img src="pic/福花ロゴ.png" width="40px">
+                            <h2>お飲み物</h2>
+                        </div>
+                        <div id="output_drink_csv"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="menu.js"></script>
+
+</html>

@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+body {
+  background-image: url(pic/haikei.png);
+  background-color: rgb(181, 177, 241);
+  color: rgb(39, 37, 34);
+  text-align: center;
+  
+}
+
+.container {
+  background-color: rgb(255, 249, 252);
+  background-size: 50% auto;
+  margin: 25px auto 40px auto;
+  width: 70%;
+  border-radius: 70px;  
+}
+
+.content{
+  width: 80%;
+  padding-bottom: 45px;
+  margin: auto;
+}
+
+.header {
+  /* padding: 20px auto 0 auto; */
+  text-align: center;
+}
+
+.entrancePic{
+  /* margin-top: 20px; */
+  width: 100%;
+  /* border-radius: 50%; */
+} 
+
+.mbtn {
+  margin: auto;
+  background-color: orange;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding-top: 10px;
+  padding-bottom: 10px;  
+  }
+
+  .mbtn p {
+    color: rgb(243, 242, 242);
+    margin: 0 10px 0 10px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+
+  .bja {  
+    font-size: 18px; 
+  }
+
+  .ben{
+    font-size: 10px;
+  }
+
+  .mbtn li:hover{
+    background-color: #e7dede;
+  }
+
+
+  .mbtn a {
+    text-decoration: none;
+  }
+
+
+  .verticalLine {
+    border-right:rgb(255, 249, 252) solid;
+  }
+
+.indexbox {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.info{  
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 200%;
+}
+ 
+/* #map {
+  margin-left: auto;
+  font-size: 20px;
+  font-weight: 200%;
+} */

@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+body {
+  background-image: url(pic/haikei.png);
+  background-color: rgb(181, 177, 241);
+  color: rgb(39, 37, 34);
+  text-align: center;
+  
+}
+
+.container {
+  background-color: rgb(255, 249, 252);
+  background-size: 50% auto;
+  margin: 25px auto 40px auto;
+  width: 70%;
+  border-radius: 70px;  
+}
+
+.content{
+  width: 80%;
+  padding-bottom: 45px;
+  margin: auto;
+}
+
+.header {
+  /* padding: 20px auto 0 auto; */
+  text-align: center;
+}
+
+.entrancePic{
+  /* margin-top: 20px; */
+  width: 100%;
+  /* border-radius: 50%; */
+} 
+
+.mbtn {
+  margin: auto;
+  background-color: orange;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding-top: 10px;
+  padding-bottom: 10px;  
+  }
+
+  .mbtn p {
+    color: rgb(243, 242, 242);
+    margin: 0 10px 0 10px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+  .verticalLine {
+    border-right:rgb(255, 249, 252) solid;
+  }
+
+
+  .bja {  
+    font-size: 18px; 
+  }
+
+  .ben{
+    font-size: 10px;
+  }
+
+  .mbtn li:hover{
+    background-color: #e7dede;
+  }
+
+
+  .mbtn a {
+    text-decoration: none;
+  }
+
+  .snavi{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  .snavi li:hover{
+    background-color: #e7dede;
+  }
+
+  .snavi li{
+    margin: 5px;
+  }
+
+  .snavi h3{
+    font-size: 8px;
+    text-align: center;
+  }
+
+  .snavivVerticalLine{
+    width: 2px;
+    border-right: solid rgb(240, 51, 51);
+    height: 20px;
+  } 
+
+ 
+
+  .horizonLineLeft {
+    border-top: orange solid 10px;
+    margin-top: 15px;
+    margin-left: 0;
+    width: 70%;
+  }
+
+  .smallTittle {
+    display: flex;
+    text-align: left;
+    margin-left: 25px;
+    padding-top: 10px;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+  .smallTittle h2 {
+    margin-bottom: 0;
+    padding: 5px;  
+  } 
+
+  .smallTittle img{
+    margin-right: 7px;
+  }
+  
+  .okoMenu{
+    padding: 0;    
+  }
+
+  .okoMenuContens{
+    text-align: center;
+  }
+
+
+
+tr,td { 
+  width: 200px;
+}
+
+  table {
+    /* background-color: rgba(243, 243, 243, 0.1); */
+    table-layout: fixed; 
+    border: collapse;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  tr:nth-child(odd) {
+    background-color:  rgba(241, 135, 48, 0.3);    /* 背景色指定 */
+}
+
+
+
+
+  
+
+
+ 

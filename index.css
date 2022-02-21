@@ -1,0 +1,169 @@
+@charset "UTF-8";
+
+
+
+body {
+  background-image: url(pic/haikei.png);
+  background-color: rgb(181, 177, 241);
+  color: rgb(39, 37, 34);
+  text-align: center;
+  
+}
+
+.container {
+  background-color: rgb(255, 249, 252);
+  background-size: 50% auto;
+  margin: 25px auto 40px auto;
+  width: 70%;
+  border-radius: 70px;  
+}
+
+.content{
+  width: 80%;
+  padding-bottom: 45px;
+  margin: auto;
+}
+
+.header {
+  /* padding: 20px auto 0 auto; */
+  text-align: center;
+}
+
+.entrancePic{
+  /* margin-top: 20px; */
+  width: 100%;
+  /* border-radius: 50%; */
+} 
+
+.mbtn {
+  margin: auto;
+  background-color: orange;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding-top: 10px;
+  padding-bottom: 10px;  
+  }
+
+  .mbtn p {
+    color: rgb(243, 242, 242);
+    margin: 0 10px 0 10px;
+    font-weight: bold;
+    text-align: center;
+  }
+
+
+  .bja {  
+    font-size: 18px; 
+  }
+
+  .ben{
+    font-size: 10px;
+  }
+
+  .mbtn li:hover{
+    background-color: #e7dede;
+  }
+
+
+  .mbtn a {
+    text-decoration: none;
+  }
+
+
+  .verticalLine {
+    border-right:rgb(255, 249, 252) solid;
+  }
+
+  .horizonLineLeft {
+    border-top: orange solid 10px;
+    margin-top: 15px;
+    margin-left: 0;
+    width: 70%;
+  }
+
+  .smallTittle{
+    display: flex;
+  }
+  
+  .smallTittle h2 {
+    text-align: left;
+    margin-left: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+
+  .indextextleft img{
+    border: 6px solid rgb(196, 195, 201);
+    margin: 7px;
+  }
+
+  .indextextleft{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    flex-grow: 1;
+  }
+
+  .childLeft {
+    margin: auto;
+    margin-left: 0;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 200%;
+  }
+
+  .horizonLineRight {
+    border-top: orange solid 10px;
+    margin-top: 15px;
+    margin-bottom: 0;
+    margin-left: auto;
+    width: 60%;
+  }
+  
+  .smallTittle2{
+    line-height: 60px;
+    width: 70%;
+    padding: 10px;  
+    /* vertical-align: middle; */
+    margin-left: auto;
+  }
+
+   .smallTittle2 h2 {
+    /* padding: 5px;*/
+    margin: 0; 
+    
+    /* text-align: center; */
+    /* vertical-align: middle; */
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+  } 
+
+  .indextextright img{
+    border: 6px solid rgb(196, 195, 201);
+    margin: 7px;
+  }
+
+  .indextextright{
+    display: flex;
+  }
+
+  .enkai{
+    margin-right: 0;
+    margin-top: 0;
+    padding-right: 0;
+  }
+  .enkai h3{
+    margin-top: 0;
+    text-align: left;
+  }
+
+  .enkai li{
+    text-align: left;    
+  }
+
+  .enkai span{
+    font-size: 12px;
+  }
