@@ -2,7 +2,6 @@
 
 body {
   background-image: url(pic/haikei.png);
-  background-color: rgb(181, 177, 241);
   color: rgb(39, 37, 34);
   text-align: center;
   
@@ -32,6 +31,11 @@ body {
   width: 100%;
   /* border-radius: 50%; */
 } 
+
+.navi ul{
+  margin: 0; 
+  padding: 0;
+}
 
 .mbtn {
   margin: auto;
@@ -86,6 +90,20 @@ body {
   text-align: center;
   font-size: 20px;
   font-weight: 200%;
+}
+
+@media screen and (max-width: 767px) {
+  .indexbox {
+    display: block;
+  }
+
+  .info {
+    width: 100%;
+  }
+
+  .indexbox iframe {
+    width: 100%;
+  }
 }
  
 /* #map {

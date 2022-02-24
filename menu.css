@@ -2,7 +2,6 @@
 
 body {
   background-image: url(pic/haikei.png);
-  background-color: rgb(181, 177, 241);
   color: rgb(39, 37, 34);
   text-align: center;
   
@@ -32,6 +31,11 @@ body {
   width: 100%;
   /* border-radius: 50%; */
 } 
+
+.navi ul{
+  margin: 0; 
+  padding: 0;
+}
 
 .mbtn {
   margin: auto;
@@ -121,6 +125,7 @@ body {
   .smallTittle h2 {
     margin-bottom: 0;
     padding: 5px;  
+    font-size: 30px;
   } 
 
   .smallTittle img{
@@ -154,7 +159,37 @@ tr,td {
 }
 
 
+@media screen and (max-width: 767px) {
 
+  .smallTittle{
+    width: 100%;
+  }
+
+  .smallTittle h2 {
+    width: 100%;
+    font-size: 5vw;
+  }
+  /* .indextextleft{
+    display: block;
+  } */
+
+  /* .indextextleft img{
+  width: 100%;
+} */
+
+  .childLeft {
+    display: block;
+    text-align: center;
+    /* width: 100%; */
+  }
+  
+  .smallTittle h2 {
+    width: 100%;
+    font-size: 3vw;
+  }
+
+
+}
 
   
 
