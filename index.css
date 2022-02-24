@@ -212,6 +212,7 @@ body {
   .smallTittle h2 {
     width: 100%;
     font-size: 5vw;
+    margin-top: 0;
   }
   .indextextleft{
     display: block;
