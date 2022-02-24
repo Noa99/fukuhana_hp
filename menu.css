@@ -83,6 +83,7 @@ body {
     justify-content: center;
     align-items: center;
     cursor: pointer;
+    padding: 0;
   }
 
   .snavi li:hover{
@@ -161,21 +162,23 @@ tr,td {
 
 @media screen and (max-width: 767px) {
 
-  .smallTittle{
+  .container {
     width: 100%;
+    margin: 0 auto;
+  }
+  .content{
+    width: 95%;
+    margin: 0 auto;
+  }
+
+  .smallTittle{
+    width: 60%;
   }
 
   .smallTittle h2 {
     width: 100%;
     font-size: 5vw;
   }
-  /* .indextextleft{
-    display: block;
-  } */
-
-  /* .indextextleft img{
-  width: 100%;
-} */
 
   .childLeft {
     display: block;
@@ -183,10 +186,7 @@ tr,td {
     /* width: 100%; */
   }
   
-  .smallTittle h2 {
-    width: 100%;
-    font-size: 3vw;
-  }
+
 
 
 }

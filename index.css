@@ -195,6 +195,15 @@ body {
 
 @media screen and (max-width: 767px) {
 
+  .container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .content{
+    width: 95%;
+    margin: 0 auto;
+  }
+
   .indextextleft{
     width: 95%;
   }
@@ -205,7 +214,7 @@ body {
 
   .smallTittle h2 {
     width: 100%;
-    font-size: 3vw;
+    font-size: 5vw;
   }
   .indextextleft{
     display: block;
@@ -213,13 +222,11 @@ body {
 
   .indextextleft img{
   width: 100%;
-
 }
 
   .childLeft {
     display: block;
     text-align: center;
-    /* width: 100%; */
   }
 
   .indextextright {
@@ -238,7 +245,11 @@ body {
   width: 100%;
 }
   .smallTittle2 h2{
-  font-size: 3vw;
+  font-size: 5vw;
+  }
+
+  .smallTittle2 img {
+    margin: 0;
   }
 
   .childRight {
