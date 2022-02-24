@@ -196,6 +196,7 @@ body {
     width: 100%;
     margin: 0 auto;
   }
+
   .content{
     width: 95%;
     margin: 0 auto;
@@ -206,13 +207,14 @@ body {
   }
 
   .smallTittle{
-    width: 100%;
+    width: 100%;    
   }
 
   .smallTittle h2 {
     width: 100%;
-    font-size: 5vw;
+    font-size: 4vw;
     margin-top: 0;
+    padding-top: 0;
   }
   .indextextleft{
     display: block;
