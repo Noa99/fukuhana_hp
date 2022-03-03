@@ -1,29 +1,21 @@
-// const all = document.getElementsByClassName("all");
-// const okoMenu = document.getElementsByClassName("okoMenu");
-// const ironMenu = document.getElementsByClassName("ironMenu");
-// const noodle_tako_gohanMenu = document.getElementsByClassName("noodle_tako_gohanMenu");
-// const drinkMenu = document.getElementsByClassName("drinkMenu");
+window.onscroll = function () { scrolling() };
 
-// document.getElementsById("menu1").style.display = "block";
-// const menu1 = document.getElementsById("menu1");
+var nav = document.getElementById("navi");
+var navTop = nav.offsetTop;
 
-// document.getElementsById("menu2").style.display = "block";
-// const menu2 = document.getElementsById("menu2");
+function scrolling() {
+  if (window.scrollY >= navTop) {
+    nav.classList.add("sticky");
+  } else {
+    nav.classList.remove("sticky");
+  }
+}
 
-// document.getElementsById("menu2").style.display = "block";
 document.getElementById("menu1").style.display = "block";
 document.getElementById("menu2").style.display = "block";
 document.getElementById("menu3").style.display = "block";
 document.getElementById("menu4").style.display = "block";
-// const menu1 = document.getElementById("menu1").style.display = "block";
-// const menu2 = document.getElementById("menu2").style.display = "block";
-// const menu3 = document.getElementById("menu3").style.display = "block";
-// const menu4 = document.getElementById("menu4").style.display = "block";
 
-// menu1.style.display = "block";
-// menu2.style.display = "block";
-// menu3.style.display = "block";
-// menu4.style.display = "block";
 
 const okonomiyaki = document.getElementById('output_oko_csv');
 const monjya = document.getElementById('output_monjya_csv');
@@ -66,22 +58,6 @@ function clickMenu(num) {
     menu4.style.display = "block";
   }
 }
-
-// function clickMenu0(){
-//   menu1.style.display="block";
-//   menu2.style.display="block";
-//   menu3.style.display="block";
-//   menu4.style.display="block";  
-// }
-
-// function clickMenu1(){
-//   menu1.style.display="block";
-//   menu2.style.display ="none";
-//   menu3.style.display ="none";
-//   menu4.style.display ="none";
-// }
-
-
 
 function getCsvData(dataPath) {
   const request = new XMLHttpRequest();
