@@ -24,18 +24,26 @@ body {
 }
 
 .header {
-  /* padding: 20px auto 0 auto; */
   text-align: center;
 }
 
 .entrancePic{
-  /* margin-top: 20px; */
   width: 100%;
-  /* border-radius: 50%; */
 } 
 
-.navi ul{
-  margin: 0; 
+.navi{
+  width: 100%;
+  display: flex;  
+  justify-content: space-between;
+}
+
+.sticky{
+  position: sticky;
+  top: 0;
+}
+
+.sticky + .content {
+  padding-top: 63px;
 }
 
 .mbtn {
@@ -53,6 +61,7 @@ body {
 
   .mbtn p {
     color: rgb(243, 242, 242);
+
     margin: 0 10px 0 10px;
     font-weight: bold;
     text-align: center;
@@ -74,11 +83,13 @@ body {
 
   .mbtn a {
     text-decoration: none;
+  
   }
 
   .indexbox{
     width: 90%;
     margin: 0 auto;
+    margin-top: 0px;
   }
 
   .verticalLine {
@@ -204,6 +215,7 @@ body {
 
   .indextextleft{
     width: 95%;
+   
   }
 
   .smallTittle{

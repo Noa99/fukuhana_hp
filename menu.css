@@ -22,22 +22,30 @@ body {
 }
 
 .header {
-  /* padding: 20px auto 0 auto; */
   text-align: center;
 }
 
 .entrancePic{
-  /* margin-top: 20px; */
   width: 100%;
-  /* border-radius: 50%; */
 } 
 
-.navi ul{
-  margin: 0; 
-  padding: 0;
+.navi{
+  width: 100%;
+  display: flex;  
+  justify-content: space-between;
+}
+
+.sticky{
+  position: sticky;
+  top: 0;
+}
+
+.sticky + .content {
+  padding-top: 63px;
 }
 
 .mbtn {
+  width: 100%;
   margin: auto;
   background-color: orange;
   color: aliceblue;
@@ -166,6 +174,7 @@ tr,td {
     width: 100%;
     margin: 0 auto;
   }
+  
   .content{
     width: 95%;
     margin: 0 auto;
