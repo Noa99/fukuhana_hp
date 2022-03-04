@@ -110,7 +110,7 @@ iframe {
 @media screen and (max-width: 767px) {
 
   .container {
-    width: 100%;
+    width: 95%;
     margin: 0 auto;
   }
   .content{
@@ -132,8 +132,6 @@ iframe {
     margin: 0 auto;
   }
 }
-
-@media screen and (min-width: 767px) {
   a[href*="tel:"]{
     color: black;
     pointer-events: none;
@@ -141,7 +139,4 @@ iframe {
     text-decoration: none;
   }
 
-  .container{
-    width: 90%;
-  }
-}
+
