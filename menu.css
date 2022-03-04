@@ -12,7 +12,7 @@ body {
   background-size: 50% auto;
   margin: 25px auto 40px auto;
   width: 70%;
-  border-radius: 70px;  
+  /* border-radius: 70px;   */
 }
 
 .content{
@@ -25,8 +25,15 @@ body {
   text-align: center;
 }
 
+.header a{
+  padding: 0;
+  margin: 0;
+}
+
 .entrancePic{
   width: 100%;
+  padding: 0;
+  margin: 0;
 } 
 
 .navi{
@@ -54,6 +61,7 @@ body {
   list-style: none;
   padding-top: 10px;
   padding-bottom: 10px;  
+  padding-left: 0;
   }
 
   .mbtn p {
@@ -171,7 +179,7 @@ tr,td {
 @media screen and (max-width: 767px) {
 
   .container {
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
   }
   

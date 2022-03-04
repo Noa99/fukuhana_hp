@@ -14,7 +14,7 @@ body {
   background-size: 50% auto;
   margin: 25px auto 40px auto;
   width: 70%;
-  border-radius: 70px;  
+  /* border-radius: 70px;   */
 }
 
 .content{
@@ -204,7 +204,7 @@ body {
 @media screen and (max-width: 767px) {
 
   .container {
-    width: 100%;
+    width: 90%;
     margin: 0 auto;
   }
 
@@ -228,10 +228,14 @@ body {
   }
   .indextextleft{
     display: block;
+    width:100%;
+    margin-left: 0;
+    /* padding: 0; */
   }
 
   .indextextleft img{
   width: 100%;
+  margin: 0 auto;
 }
 
   .childLeft {
@@ -257,6 +261,7 @@ body {
 
   .indextextright img{
   width: 100%;
+  margin: 0;
 }
   .smallTittle2 h2{
   font-size: 5vw;
@@ -269,43 +274,6 @@ body {
   .childRight {
     display: block;
     text-align: center;
-    /* width: 100%; */
-  }
-
-  .drawer-hamburger{
-    position: fixed;
-    left: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    z-index: 90;
-    background-color: black;
-
-    /* height: 30px;
-    width: 30px;
-    transform: translateX(-100%);
-    display: block;
-    box-sizing: content-box;
-    
-   
-    margin-right: 0;
-    padding: 15px 15px 15px;
-    transition: all .6s cubic-bezier(.19,1,.22,1);
-    /* transform: translateZ(0); */
-    /* border: 0; */
-    /* outline: 0; */
-    /* background-color: black; */ 
-  }
-
-  .drawer-hamburger span, .drawer-hamburger span::before, .drawer-hamburger span::after {
-    content: '';
-    display: block;
-    height: 3px;
-    width: 32px;
-    border-radius: 3px;
-    background-color: white;
-    margin:0 auto;
-    position: absolute;
   }
 
   .drawer-hamburger span::before{

@@ -12,7 +12,7 @@ body {
   background-size: 50% auto;
   margin: 25px auto 40px auto;
   width: 70%;
-  border-radius: 70px;  
+  /* border-radius: 70px;   */
 }
 
 .content{
@@ -22,14 +22,11 @@ body {
 }
 
 .header {
-  /* padding: 20px auto 0 auto; */
   text-align: center;
 }
 
 .entrancePic{
-  /* margin-top: 20px; */
   width: 100%;
-  /* border-radius: 50%; */
 } 
 
 .navi{
@@ -59,6 +56,7 @@ body {
   list-style: none;
   padding-top: 10px;
   padding-bottom: 10px;  
+  padding-left: 0;
   }
 
   .mbtn p {
@@ -130,7 +128,8 @@ iframe {
   }
 
   .indexbox iframe {
-    width: 100%;
+    width: 90%;
+    margin: 0 auto;
   }
 }
 
@@ -140,5 +139,9 @@ iframe {
     pointer-events: none;
     cursor: default;
     text-decoration: none;
+  }
+
+  .container{
+    width: 90%;
   }
 }
